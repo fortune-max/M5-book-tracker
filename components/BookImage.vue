@@ -4,5 +4,7 @@
 </script>
 
 <template>
-    <img :src="src" :alt="props.isbn" />
+    <a :href="'https://www.goodreads.com/book/show/' + props.goodreadsID">
+        <img class="w-32 h-48" :src="src" />
+    </a>
 </template>

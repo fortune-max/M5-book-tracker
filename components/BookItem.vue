@@ -3,6 +3,8 @@
 </script>
 
 <template>
-    <BookImage :goodreadsID="props.goodreadsID" />
-    <BookTitle :goodreadsID="props.goodreadsID" />
+    <span class="inline-flex flex-col items-center gap-1 p-4">
+        <BookImage :goodreadsID="props.goodreadsID" />
+        <BookTitle :goodreadsID="props.goodreadsID" />
+    </span>
 </template>

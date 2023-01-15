@@ -10,7 +10,9 @@
 </script>
 
 <template>
-    <span class="underline">
-        {{ title }}
+    <span class="truncate w-40 text-center">
+        <a :href="'https://www.goodreads.com/book/show/' + props.goodreadsID">
+            {{ title }}
+        </a>
     </span>
 </template>
