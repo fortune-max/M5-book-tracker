@@ -10,7 +10,7 @@
 </script>
 
 <template>
-    <div class="m-auto">
+    <div class="flex content-center flex-col">
         <ListRenderer :listItems="yearList" />
     </div>
 </template>

@@ -3,7 +3,7 @@
 </script>
 
 <template>
-    <div class="flex flex-col gap-2">
+    <span class="inline-flex flex-col gap-2 items-center">
         <ListItem v-for="listItem in props.listItems" :listItem="listItem" />
-    </div>
+    </span>
 </template>

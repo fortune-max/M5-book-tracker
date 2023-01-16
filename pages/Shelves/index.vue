@@ -1,5 +1,5 @@
 <script setup>
-    const yearList = [
+    const shelfList = [
         { name: 'Favorites', url: 'shelves/5star'},
         { name: 'Before I Die - Unread', url: 'shelves/bid_unread'},
         { name: 'Before I Die - Read', url: 'shelves/bid_read'}
@@ -8,7 +8,6 @@
 
 <template>
     <div class="flex content-center flex-col">
-        <ListRenderer :listItems="yearList" />
+        <ListRenderer :listItems="shelfList" />
     </div>
-    
 </template>
