@@ -10,4 +10,13 @@ export default defineNuxtConfig({
     typescript: {
         shim: false,
     },
+    app: {
+        head: {
+            title: 'Greatreads',
+            meta: [
+              { name: 'description', content: 'Your next book awaits' },
+              {charset: 'utf-16'},
+            ],
+        }
+    }
 })
