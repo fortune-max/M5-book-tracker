@@ -4,9 +4,9 @@
 </script>
 
 <template>
-    <div class="p-12">
-        <span v-for="goodreadsID in booklist">
+    <div class="inline-block">
+        <div class="inline-block" v-for="goodreadsID in booklist">
             <BookItem :goodreadsID="goodreadsID" />
-        </span>
+        </div>
     </div>
 </template>
