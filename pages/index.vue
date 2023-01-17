@@ -8,5 +8,5 @@ import AlertBox from '~~/components/AlertBox.vue';
     <Head>
         <Meta name="current-path" content="/home"/>
     </Head>
-    <h1>Hello world</h1>
+    <p>A simple site for tracking my reading history</p>
 </template>
