@@ -17,7 +17,7 @@
 
 main {
     padding: 20px;
-    background-color: cadetblue;
+    background-color: #ccd5ae;
     height: inherit;
     flex-grow: 1;
 }
